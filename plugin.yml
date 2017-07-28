@@ -1,0 +1,16 @@
+name: Notifier
+main: com.notifier.main.Main
+version: 1.0.0
+description: Telegram Notifier Plugin
+commands: 
+    start: 
+        description: Start notifing
+        tooltip: /start
+        permission: notifier.start
+        permission-message: You don't have <permission> permission!
+        
+    stopNoti: 
+         description: Stop notifing
+         tooltip: /stop
+         permission: notifier.stop
+         permission-message: You don't have <permission> permission!
