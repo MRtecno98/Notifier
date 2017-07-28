@@ -35,7 +35,7 @@ def response(msg) :
 def startServer() :
     bottle.run(host="localhost", port=8080)
 
-bot = telepot.Bot("435817204:AAFVpZ3okQm1zubukV0_yiPPJQu60WJGMKo")
+bot = telepot.Bot("BOT KEY")
 server = threading.Thread(target=startServer)
 bot.message_loop(response)
 server.run()
